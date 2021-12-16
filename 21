@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{
+int x,m,ch;
+scanf("%d",&x);
+m=x/60;
+ch=x/60/60;
+printf("%d минут %d часов",m,ch);
+}
