@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{
+    int k;
+    float x;
+    scanf("%f", &x);
+    k = (int) (x * 10) % 10;
+    printf("%d", k);
+}
